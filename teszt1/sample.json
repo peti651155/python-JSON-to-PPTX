@@ -1,0 +1,38 @@
+{
+  "presentation": [
+    {
+      "type" : "title",
+      "title" : "The Title Text",
+      "content" : "The Sub-Title Text"
+    },
+    {
+      "type" : "text",
+      "title" : "The Title Text",
+      "content" : "The Long Text"
+    },
+    {
+      "type" : "list",
+      "title" : "The Title Text",
+      "content" : [
+        { "level" : 1, "text" : "The Level 1 Text"},
+        { "level" : 2, "text" : "The Level 2 Text"},
+        { "level" : 2, "text" : "The Level 2 Text"},
+        { "level" : 1, "text" : "The Level 1 Text"}
+      ]
+    },
+    {
+      "type" : "picture",
+      "title" : "The Title Text",
+      "content" : "picture.png"
+    },
+    {
+      "type" : "plot",
+      "title" : "The Title Text",
+      "content" : "sample.dat",
+      "configuration" : {
+        "x-label" : "The Plot X Label",
+        "y-label" : "The Plot Y Label"
+      }
+    }
+  ]
+}
